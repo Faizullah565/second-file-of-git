@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>18th lec 3rd</title>
+
+<style>
+
+body{
+    background-color:#0d1323;
+}
+#main-container{
+    height: 405px;
+    width: 900px;
+    /* border: 2px solid white; */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.box{
+    height: 180px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #1d204b;
+    /* margin: auto; */
+    /* position: relative; */
+    border-radius: 10px;
+
+}
+div#first-box {
+    height: 384px;
+    /* position: absolute; */
+    margin-left: 25px;
+
+}
+.box:nth-child(5){
+    margin-left: 210px;
+}
+span{
+    display: flex;
+    position: absolute;
+    top: 205px;
+    left: 245px;
+    column-gap: 20px;
+    border-radius: 10px;
+
+}
+#first-sub-child{
+    height: 70%;
+    width: 100%;
+    background-color: #5746ea;
+    border-radius: 10px;
+}
+#image-jeremy{
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 20px;
+    border: 4px solid white;
+    border-radius: 50px;
+}
+#report{
+    margin-left: 25px;
+    color: white;
+}
+small{
+    color:darkgray;
+}
+#first-botm{
+    color: white;
+    margin-left: 25px;
+    margin-top:-10px;
+
+}
+#month{
+    color: darkgray;
+}
+#icon-work{
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+}
+#second-box{
+    background-color: orange;
+}
+#sec-child{
+    width: 100%;
+    height: 68%;
+    background-color: #5746ea ;
+    border-radius: 10px;
+    margin-top: 54px;
+    display: flex;
+}
+.second-box{
+    margin-left: 20px;
+    margin-top: 18px;
+}
+img.second-box {
+    margin-top: 26px;
+    margin-left: 107px;
+}
+</style>
+</head>
+<body>
+    
+<div id="main-container">
+   <div id="first-box" class="box">
+    <div id="first-sub-child">
+        <img id="image-jeremy" src="image-jeremy.png" alt=""><br><br>
+        <div id="report"><small>report for</small>
+        <h2>Jeremy</h2>
+        <h2>Robson</h2>
+        </div>
+    </div>
+    <div id="first-botm">
+        <h5>Daily</h5>
+        <h5>Weekly</h5>
+        <h5 id="month">Monthly</h5>
+
+    </div>
+   </div>
+   <div id="second-box" class="box">
+    <img id="icon-work" src="icon-work.svg" alt="">
+    <div id="sec-child">
+        <div class="second-box">Work</div>
+        <div><img class="second-box" src="icon-ellipsis.svg" alt=""></div>
+    </div>
+   </div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <span>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</span> 
+ 
+</div>
+
+</body>
+</html>
